@@ -9,3 +9,7 @@ gems:
   - jekyll-sitemap
   - jekyll-readme-index
   - jekyll-relative-links
+
+sass:
+  sass_dir: _sass
+  style: compressed
