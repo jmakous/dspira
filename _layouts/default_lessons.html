@@ -17,6 +17,13 @@
     <link rel="stylesheet" type="text/css" href="{{'/assets/css/main.css' | relative_url}} " />
 
 </head>
+
+<header class="main-header post-head">
+  <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
+      <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">DSPIRA</a>
+  </nav>
+</header>
+
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
 
     {{ content }}
