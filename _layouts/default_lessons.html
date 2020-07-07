@@ -23,8 +23,12 @@
     <footer class="site-footer clearfix">
       <section class="copyright">
         <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 
-              {{"now" | date: "%Y"}} &bull; All rights reserved.
+              {{"now" | date: "%Y"}} &bull; COPYLEFT.
       </section>
+      <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p><small>i.e.<a href="http://wvurail.org/">West Virgnia University ⏦ Radio Astronomy Instrumentation Laboratory</a></small></p>
+      <p><small>Hosted on GitHub Pages &mdash</p>
       <section class="poweredby">Made with Jekyll using 
         <a href="http://github.com/rosario/kasper">Kasper theme</a>
       </section>
